@@ -1,0 +1,34 @@
+/* PokemonCard.css */
+.pokemon-card {
+  width: 25%; /* Defina a largura dos cards para que três caibam em uma linha */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+/* Estilos para o conteúdo interno do card (como a imagem e o nome) */
+.pokemon-card img {
+  width: 100px; /* Largura padrão */
+  height: 100px; /* Altura padrão */
+  object-fit: cover;
+}
+
+.pokemon-card h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Estilo para o tipo do Pokémon */
+.pokemon-card p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 5px;
+}
